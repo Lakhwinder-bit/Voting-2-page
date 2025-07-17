@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", sans-serif;
+}
+body {
+  /* background-image: url("https://th.bing.com/th/id/R.1ee114adf3f6f5d36fa03d98dd027595?rik=Z0uB2FeHhylfbQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fLight-Blue-HD-Backgrounds-Free-Download.jpg&ehk=A1oL99oIPNjoWoX7%2fJZhOrBh8TTdeatDhhq26OJaxJU%3d&risl=&pid=ImgRaw&r=0");
+  width: 100%; */
+  background-color: bisque;
+  height: 100%;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  background-color: rgb(248, 250, 251);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+  position: absolute;
+  margin: 78px 138px;
+  border-radius: 20px;
+  display: flex;
+}
+.img {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.Welcome-box {
+  padding-top: 53px;
+  padding-left: 62px;
+}
+.Welcome-box h1 {
+  color: black;
+  font-weight: 300;
+}
+.Welcome-box p {
+  padding-top: 10px;
+  font-size: 12px;
+  color: gray;
+}
+
+.right {
+  box-sizing: border-box;
+  display: grid;
+  gap: 62px;
+  margin-left: 100px;
+}
+.left {
+  background-color: bisque;
+  max-width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+.profile-pic {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+img {
+  border-radius: 50px;
+  object-fit: cover;
+}
+.img-change button {
+  border: none;
+  font-size: 10px;
+  background-color: bisque;
+  font-weight: bold;
+  cursor: pointer;
+}
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+#nameS {
+  padding: 6px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid#ccc;
+  box-sizing: border-box;
+}
+#name {
+  padding: 6px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+#url {
+  padding: 6px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+.span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+}
+p {
+  font-size: 10px;
+  color: gray;
+  font-weight: bold;
+
+  padding: 4px 2px;
+}
+#contain {
+  margin-bottom: 10px;
+}
+#radios {
+  margin: 0px 2px;
+}
+.radius-box {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+  margin-top: 4px;
+  font-weight: 300;
+}
+label{
+  margin-left: 3px;
+}
+#passwords {
+  padding: 6px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+
+  box-sizing: border-box;
+}
+#click {
+  width: 100%;
+  height: 5vh;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
